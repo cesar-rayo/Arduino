@@ -2,12 +2,12 @@ int amarillo = 13;
 int rojo = 7; //Numero de puerto de salida
 int milisegundos = 300; // tiempo de espera
 
-void setup(){
+void setup(){ //Configuracion inicial
   pinMode(amarillo, OUTPUT);
   pinMode(rojo, OUTPUT);
 }
 
-void loop(){
+void loop(){ //Ciclos de CPU
   digitalWrite(amarillo, HIGH);
   digitalWrite(rojo, LOW);
   delay(milisegundos);
