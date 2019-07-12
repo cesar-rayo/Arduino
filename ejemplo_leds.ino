@@ -1,3 +1,4 @@
+// Este script se carga en Arduino directamente desde el IDE de arduino
 int amarillo = 13;
 int rojo = 7; //Numero de puerto de salida
 int milisegundos = 300; // tiempo de espera
