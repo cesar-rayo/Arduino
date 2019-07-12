@@ -1,4 +1,4 @@
-var jf = require("johnny-five);
+var jf = require("johnny-five");
 var circuito = circuito.Board();
 var rojo, motor, foto_celda;
 var turno = true;
